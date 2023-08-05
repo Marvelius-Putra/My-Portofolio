@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* root variables */
+:root{
+    --color-primary: #5800FF;
+    --color-secondary: #6B5AFF;
+    --color-danger: #ff7782;
+    --color-success: #41f1b6;
+    --color-warning: #ffbb55;
+
+    --font-poppins: 'poppins';
+    --font-nunito: 'Nunito Sans';
+    
+    /* dark theme */
+    --color-background: #1A1A29;
+    --color-font: white;
+    --color-cover: #171734;
+    --color-bar: #2E0068;
+    --color-container: #31313F;
+    --color-hoverFont: #5800FF;
+    --color-buttonContact: #201E58;
+    --color-searching: #fff;
+    --color-searching-icon: #6B5AFF;
+    --color-hoverArrow: #6B5AFF;
+    --color-hoverBtn: #4000ff;
+    --color-light: rgba(132,139,200,0.18);
+    --color-mode: #7380ec;
+    --color-title: #6B5AFF;
+    --color-hoverBtnContact: #4000ff;
+
+    --card-border-radius: 2rem;
+    --border-radius-1:0.4rem;
+    --border-radiuss-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding:1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+/*============================DARK THEME VARIABEL =================== */
+.light-theme-variables{
+  --color-background: #EAEAFF;
+  --color-font: #1F1F39;
+  --color-cover: #E5E9FC;
+  --color-bar: hsl(267, 100%, 57%, 0.13);
+  --color-container: hsl(267, 100%, 57%, 0.13);
+  --color-hoverArrow: #5800FF;
+  --color-hoverBtn: #6B5AFF;
+  --color-title: #5800FF;
+  --color-buttonContact: #C1C1FB;
+  --color-hoverBtnContact:rgb(159, 147, 248);
+  
+  /* --box-shadow: 0.2rem 3rem var(--color-light); */
+}
+
+
+*{
+  margin: 0;  
+}
+
+body{
+  background-color: var(--color-background);   
+  
+  width: 1535px;
+  margin: auto;
+}

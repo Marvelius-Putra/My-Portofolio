@@ -1,0 +1,163 @@
+
+/* {{------------------------------------------------- SKILL SECTION ---------------------------------- --}} */
+body{
+  overflow-x:hidden;
+  max-width: 120rem;
+}
+
+#portofolio-box{
+  color: var(--color-font);    
+  background-color: var(--color-cover);  
+  margin: 10px 30px 25px 30px;
+  padding: 10px 0 10px 0;   
+  width: 91rem;
+}
+
+header {    
+  background-size: cover;
+  font-family: var(--font-nunito);
+  font-size: 23px;
+}
+
+#portofolio-box h1 {  
+  color: var(--color-secondary);  
+  text-align:center;
+  overflow:hidden;
+  margin: 30px 40px 0 40px;
+}
+
+#portofolio-box h1:before, #portofolio-box h1:after {
+  content:'';
+  width:80rem;
+  border-bottom:var(--color-secondary) solid;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+h1:before {
+  margin-left:-80rem;
+  margin-right: 10rem;
+}
+
+h1:after {
+  margin-right:-80rem;
+  margin-left: 10rem;
+}
+
+#skill{
+  margin: 20px 0 80px 0;
+}
+#skill-sub{
+  display:flex;
+  margin-left: 3rem;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#skill-sub p{
+  margin: 0 0 0px 20px;
+  font-size: 17px;
+  position: relative;
+  top:-3px;
+  font-weight: 500;
+  font-family: var( --font-poppins);
+}
+
+#skill-list{
+  padding-bottom: 20px;
+}
+
+/* skill bar */
+.progress{  
+  max-width: 50rem;
+  background-color: var(--color-bar);
+  margin: 0.7rem 0 0 3rem;  
+  display:flex;
+  height: 25px;
+  border-radius: 0 20px 20px 0;
+}
+
+.progress-bar-name{  
+  width: 8rem;
+  padding-left: 15px;
+  position:relative;
+  padding-top: 2.5px;
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 15px;    
+  color: white;
+}
+
+.progress-bar-success{  
+  border-radius: 0 20px 20px 0;
+}
+
+/* {{------------------------------------------------- END of SKILL SECTION ---------------------------------- --}} */
+
+/* {{------------------------------------------------- Experience SECTION ---------------------------------- --}}*/
+
+#exp{
+  margin-top: 20px;
+}
+
+#exp-section{
+  display:flex;
+  justify-content: space-between;
+  margin: 45px 40px 20px 40px;
+}
+
+.exp-content{
+  text-align: center;
+  background-color: var(--color-container);
+  font-family: var(--font-nunito);
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.exp-content:first-child:hover{
+  box-shadow: 5px 5px 100px 5px var(--color-primary); 
+    transform: scale(1.01);  
+}
+
+
+.exp-content img{
+  width: 570px;
+  height: 450px;
+  border: solid 35px var(--color-container);
+}
+
+.exp-content h2{
+  background-color: var(--color-primary);
+  position:relative;  
+  padding: 5px;
+  color: var(--color-font);
+}
+
+
+/* {{------------------------------------------------- Project SECTION ---------------------------------- --}}*/
+
+#project{
+  margin-top: 80px;
+}
+
+#project-section{
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 55px;
+  font-family: 'baloo', sans-serif;
+  color: var(--color-primary);
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+ 
+

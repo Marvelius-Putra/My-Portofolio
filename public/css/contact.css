@@ -1,0 +1,73 @@
+#box-contact{  
+  color: var(--color-font); 
+  font-family: var(--font-poppins);  
+  background-color: var(--color-cover);  
+  margin: 20px 50px 25px 50px;
+  padding: 10px 0 15px 0;  
+}
+
+#contact-medsos{
+  margin: 2rem 5rem 2rem 11rem; 
+}
+
+table{
+  margin-top: 10px;
+}
+
+hr{
+  width: 20rem;
+  background-color: var(--color-primary);
+  border:2px solid var(--color-secondary);
+}
+
+.medsos{
+  display: inline-flex;  
+  margin: 1rem 15rem 10px 0rem; 
+  cursor: pointer;
+}
+
+.medsos a{
+  text-decoration: none;
+  display: inline-flex;
+  background-color: var(--color-buttonContact);;
+  color: var(--color-font);
+  padding: 8px 20px 8px 20px;  
+  min-width: 260px;
+  max-width: 260px;
+  border-radius: 10px;  
+}
+
+.medsos a:hover{
+  background-color: var(--color-hoverBtnContact);
+}
+
+.medsos h3{
+  margin-top: 0.9rem;
+  margin-left: 20px;
+}
+
+
+#contact-touch{
+  margin: 2rem 5rem 2rem 11rem;
+}
+
+.touch{
+  display: inline-flex;
+  background-color: var(--color-buttonContact); 
+  margin: 1rem 9rem 10px 0rem;    
+  padding: 8px 5px 8px 10px;  
+  border-radius: 10px;
+  min-width: 10px;
+  max-width: 100px;  
+}
+
+.touch h3{  
+  margin-left: 8px; 
+  font-size: 15px;
+}
+
+
+
+
+
+

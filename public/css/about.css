@@ -1,0 +1,46 @@
+#box-about{
+  display: flex;
+  justify-content: space-between;
+  margin: 2.8rem 2rem 2rem 2rem;  
+  
+}
+
+#profile-picture img{
+  width: 267px;  
+  margin-left: 4rem;
+  border: 20px solid var(--color-container);
+}
+
+#about-content{
+  margin-right: 15rem;
+  position: relative;
+  top: -22px;
+  font-family: var(--font-poppins);  
+}
+
+#about-content h1{
+  color: #6B5AFF;
+  font-size: 55px;  
+}
+
+#about-description{
+  margin-top: 5px;
+  color: var(--color-font) ;
+  border: solid 1px #6B5AFF;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 750px;
+}
+
+a{
+  
+  color: rgb(128, 113, 246);  
+}
+
+a:hover{
+  color: rgb(159, 147, 248); 
+}
+
+
+
+

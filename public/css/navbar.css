@@ -1,0 +1,87 @@
+
+
+/* ------------------ Navbar Style -------------------------- */
+.navbar{
+  display:flex;
+  justify-content: space-between;  
+  margin-left: 2rem;
+}
+
+.logo{
+  display:flex;  
+}
+
+.logo h1{
+  padding-top: 2.2rem;  
+  font-family: var(--font-poppins);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 33px;
+  color: var(--color-font);
+}
+
+.logo-img{
+  width: 75px;
+  height: 80px;
+  margin-left: 2rem;
+  margin-top: 7px;
+}
+
+.navlinks ul{
+  display:flex;
+  list-style: none;
+  margin-right: 8rem;
+}
+
+.navlinks li{
+  padding: 20px;  
+  margin-top: 14.5px;
+}
+
+.navlinks li a{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 32px; 
+  color: var(--color-font);
+}
+
+.navlinks li a:hover{  
+  color: var(--color-hoverFont) ;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* ------------------ END of Navbar Style -------------------------- */
+
+
+.theme-toggler{
+  margin-top: 5px;
+  background: var(--color-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.6rem;
+  width: 4.2rem;
+  cursor: pointer;
+  border-radius: var(--border-radius-1);
+}
+
+.theme-toggler span{
+  font-size: 1.2rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggler span.active{
+  background: var(--color-mode);
+  color: white;
+  border-radius: var(--border-radius-1);
+}
